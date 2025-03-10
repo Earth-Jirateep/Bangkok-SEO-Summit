@@ -1,0 +1,393 @@
+.section-footer {
+    background-image: url(../images/background/bg-section-12.png);
+    display: flex;
+    height: 481px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-footer-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    margin-left: 84px;
+    margin-top: 120px;
+}
+
+.section-footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.section-footer-logo {
+    width: auto;
+}
+
+.section-footer-logo img {
+    width: 214px;
+}
+
+.section-footer-logo img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-footer-detail-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section-footer-header {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+.section-footer-header span {
+    color: #5AF8E0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.section-footer-detail {
+    font-family: "Aktiv Grotesk Light";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.section-footer-button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.section-footer .button-buy-ticket {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 229px;
+    height: 59px;
+    border-radius: 67px;
+    background: linear-gradient(90deg, #FFF 0%, #FFF 100%);
+    text-decoration: unset;
+}
+
+.section-footer .button-buy-ticket span {
+    font-size: 18px;
+    line-height: 1.3;
+    background: linear-gradient(63deg, #4026EA 5.82%, #4130E9 9.17%, #4A79E6 34.86%, #51B2E3 57.2%, #56DCE1 76.19%, #59F5E0 91.83%, #5BFFE0 100.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 59px;
+    border-radius: 74px;
+    background: rgba(91, 255, 224, 0.10);
+}
+
+.button-facebook img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 11px;
+}
+
+.footer-text-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 658px;
+    height: 52px;
+    border-radius: 67px;
+    background: rgba(91, 255, 224, 0.10);
+    backdrop-filter: blur(18.350000381469727px);
+    padding: 0 46px;
+}
+
+.footer-text {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer-text span {
+    color: #5AF8E0;
+}
+
+
+@media screen and (min-width: 1367px) {
+
+    .section-footer {
+        height: 35.212vw;
+    }
+    
+    .section-footer-wrapper {
+        gap: 3.075vw;
+        margin-left: 6.149vw;
+        margin-top: 8.785vw;
+    }
+    
+    .section-footer-box {
+        gap: 5.271vw;
+    }
+
+    .section-footer-logo img {
+        width: 15.666vw;
+    }
+    
+    .section-footer-detail-box {
+        width: 21.962vw;
+    }
+    
+    .section-footer-header {
+        font-size: 1.464vw;
+        line-height: 2.05vw;
+        margin-bottom: 0.878vw;
+    }
+    
+    .section-footer-header span {
+        font-size: 1.464vw;
+        line-height: 2.05vw;
+    }
+    
+    .section-footer-detail {
+        font-size: 1.025vw;
+        line-height: 1.94vw;
+        margin-bottom: 2.196vw;
+    }
+    
+    .section-footer-button-box {
+        gap: 0.439vw;
+    }
+    
+    .section-footer .button-buy-ticket {
+        width: 16.764vw;
+        height: 4.319vw;
+        border-radius: 4.905vw;
+    }
+    
+    .section-footer .button-buy-ticket span {
+        font-size: 1.318vw;
+    }
+    
+    .button-facebook {
+        width: 4.392vw;
+        height: 4.319vw;
+        border-radius: 5.417vw;
+    }
+
+    .button-facebook img {
+        width: 0.805vw;
+    }
+
+    .footer-text-box {
+        width: 48.17vw;
+        height: 3.807vw;
+        border-radius: 4.905vw;
+        backdrop-filter: blur(1.343vw);
+        padding: 0 3.367vw;
+    }
+    
+    .footer-text {
+        font-size: 0.732vw;
+    }
+    
+}
+
+@media screen and (max-width: 1365px)  {
+
+    .section-footer {
+        height: 35.212vw;
+    }
+    
+    .section-footer-wrapper {
+        gap: 3.075vw;
+        margin-left: 6.149vw;
+        margin-top: 8.785vw;
+    }
+    
+    .section-footer-box {
+        gap: 5.271vw;
+    }
+
+    .section-footer-logo img {
+        width: 15.666vw;
+    }
+    
+    .section-footer-detail-box {
+        width: 21.962vw;
+    }
+    
+    .section-footer-header {
+        font-size: 1.464vw;
+        line-height: 2.05vw;
+        margin-bottom: 0.878vw;
+    }
+    
+    .section-footer-header span {
+        font-size: 1.464vw;
+        line-height: 2.05vw;
+    }
+    
+    .section-footer-detail {
+        font-size: 1.025vw;
+        line-height: 1.94vw;
+        margin-bottom: 2.196vw;
+    }
+    
+    .section-footer-button-box {
+        gap: 0.439vw;
+    }
+    
+    .section-footer .button-buy-ticket {
+        width: 16.764vw;
+        height: 4.319vw;
+        border-radius: 4.905vw;
+    }
+    
+    .section-footer .button-buy-ticket span {
+        font-size: 1.318vw;
+    }
+    
+    .button-facebook {
+        width: 4.392vw;
+        height: 4.319vw;
+        border-radius: 5.417vw;
+    }
+
+    .button-facebook img {
+        width: 0.805vw;
+    }
+
+    .footer-text-box {
+        width: 48.17vw;
+        height: 3.807vw;
+        border-radius: 4.905vw;
+        backdrop-filter: blur(1.343vw);
+        padding: 0 3.367vw;
+    }
+    
+    .footer-text {
+        font-size: 0.732vw;
+    }
+
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .section-footer {
+        background-image: url(../images/background/bg-section-12-m.png);
+        height: 173.256vw;
+        justify-content: flex-start;
+    }
+
+    .section-footer-container {
+        align-items: center;
+    }
+    
+    .section-footer-wrapper {
+        gap: 80.075vw;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .section-footer-box {
+        gap: 11.271vw;
+        flex-direction: column;
+    }
+
+    .section-footer-logo img {
+        width: 40.465vw;
+    }
+    
+    .section-footer-detail-box {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .section-footer-header {
+        font-size: 4.651vw;
+        line-height: 1;
+        margin-bottom: 2.791vw;
+    }
+    
+    .section-footer-header span {
+        font-size: 4.651vw;
+        line-height: 1;
+    }
+    
+    .section-footer-detail {
+        font-size: 3.256vw;
+        line-height: 1.6;
+        margin-bottom: 6.512vw;
+        width: 72.093vw;
+        text-align: center;
+    }
+    
+    .section-footer-button-box {
+        gap: 3.439vw;
+    }
+    
+    .section-footer .button-buy-ticket {
+        width: 53.488vw;
+        height: 13.953vw;
+        border-radius: 8.905vw;
+    }
+    
+    .section-footer .button-buy-ticket span {
+        font-size: 4.186vw;
+    }
+    
+    .button-facebook {
+        width: 13.953vw;
+        height: 13.953vw;
+        border-radius: 50%;
+    }
+
+    .button-facebook img {
+        width: 2.805vw;
+    }
+
+    .footer-text-box {
+        width: 83.256vw;
+        height: 13.953vw;
+        border-radius: 10.905vw;
+        backdrop-filter: blur(1.343vw);
+        padding: 0 3.367vw;
+    }
+    
+    .footer-text {
+        font-size: 2.326vw;
+    }
+    .footer-text:first-child {
+        display: block;
+    }
+
+}
